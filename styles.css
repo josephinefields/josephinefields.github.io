@@ -27,11 +27,12 @@ section {
 h2 {
     border-bottom: 2px solid #2d6cdf;
     padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-/* About */
-.about p {
-    max-width: 700px;
+.resume h3 {
+    margin-top: 25px;
+    color: #2d6cdf;
 }
 
 /* Skills */
