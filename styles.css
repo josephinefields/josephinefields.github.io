@@ -23,10 +23,7 @@ body {
     line-height: 1.7;
 }
 
-/*
-   Hero Section
-*/
-
+/* Hero Section */
 .hero {
     position: relative;
     padding: 5rem 2rem 4rem;
@@ -76,10 +73,7 @@ body {
     background: var(--accent-soft);
 }
 
-/*
-   Section Layout
-*/
-
+/* Section Layout */
 section {
     max-width: 1100px;
     margin: 4rem auto;
@@ -103,10 +97,7 @@ h2::before {
     border-radius: 50%;
 }
 
-/*
-   About Section
-*/
-
+/* About Section */
 .about {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -115,16 +106,14 @@ h2::before {
 }
 
 .profile-img {
-    width: 100%;
+    width: auto;
     max-width: 220px;
+    height: auto;
     border-radius: 14px;
     border: 1px solid rgba(148,163,184,0.15);
 }
 
-/*
-   Skills
-*/
-
+/* Skills */
 .skill-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -141,10 +130,7 @@ h2::before {
     color: var(--text-muted);
 }
 
-/*
-   Portfolio
-*/
-
+/* Portfolio */
 .portfolio {
     position: relative;
 }
@@ -180,7 +166,7 @@ h2::before {
     text-transform: uppercase;
 }
 
-/* Images (smaller, technical) */
+/* Project Images */
 .project-images {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
@@ -189,10 +175,11 @@ h2::before {
 }
 
 .project-images img {
-    width: 90px;
+    width: 100%;
+    max-width: 150px; /* max size for each project image */
+    height: auto;
     border-radius: 6px;
-    box-shadow:
-        0 2px 6px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     transition: transform 0.25s ease;
 }
 
@@ -200,10 +187,7 @@ h2::before {
     transform: scale(1.08);
 }
 
-/*
-   Resume Section
-*/
-
+/* Resume Section */
 .resume h3 {
     margin-top: 2rem;
     font-size: 1.2rem;
@@ -218,10 +202,7 @@ h2::before {
     color: var(--text-muted);
 }
 
-/*
-   Footer
-*/
-
+/* Footer */
 footer {
     border-top: 1px solid rgba(148,163,184,0.15);
     text-align: center;
@@ -233,4 +214,10 @@ footer {
 footer a {
     color: var(--accent);
     text-decoration: none;
-}}
+}
+
+/* Make all images responsive by default */
+img {
+    max-width: 100%;
+    height: auto;
+}
