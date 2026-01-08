@@ -1,82 +1,77 @@
-/* General */
 body {
-    font-family: Arial, sans-serif;
+    font-family: system-ui, -apple-system, sans-serif;
     margin: 0;
-    background: #f8f9fa;
-    color: #222;
+    color: #1f2933;
+    background: #f9fafb;
     line-height: 1.6;
 }
 
-header {
-    text-align: center;
-    padding: 40px 20px;
-    background: #2d6cdf;
+.hero {
+    background: linear-gradient(120deg, #0f172a, #1e293b);
     color: white;
+    padding: 4rem 2rem;
 }
 
-h1 {
-    margin-bottom: 5px;
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
-section {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
 }
 
-h2 {
-    border-bottom: 2px solid #2d6cdf;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-.resume h3 {
-    margin-top: 25px;
-    color: #2d6cdf;
-}
-
-/* Skills */
-.skills ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    list-style: none;
-    padding-left: 0;
-}
-
-.skills li {
-    background: #e5ecff;
-    padding: 8px 12px;
-    border-radius: 10px;
-}
-
-/* Projects */
-.project {
-    margin: 30px 0;
-    padding: 20px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-}
-
-.project img {
-    width: 100%;
-    max-width: 350px;
-    border-radius: 10px;
-    display: block;
-    margin-top: 10px;
-}
-
-/* Contact */
-.contact a {
-    color: #2d6cdf;
+.hero-links a {
+    margin-right: 1rem;
+    color: #93c5fd;
     text-decoration: none;
 }
 
-/* Footer */
+section {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+.profile-img {
+    max-width: 200px;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.5rem;
+}
+
+.portfolio .project-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.project-meta {
+    color: #475569;
+    font-size: 0.9rem;
+}
+
+.project-images img {
+    max-width: 200px;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+}
+
+.project-status {
+    font-style: italic;
+    color: #475569;
+}
+
 footer {
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    background: #eee;
+    padding: 2rem;
+    background: #e5e7eb;
 }

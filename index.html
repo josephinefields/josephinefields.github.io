@@ -8,131 +8,148 @@
 
 <body>
 
-<header>
-    <h1>Josephine Fields</h1>
-    <p>Electrical Engineering Student
+<header class="hero">
+    <div class="hero-text">
+        <h1>Josephine Fields</h1>
+        <p class="subtitle">Electrical Engineering & Computer Science Student</p>
+
+        <div class="hero-links">
+            <a href="Fields, Josephine - Resume.docx.pdf">Resume (PDF)</a>
+            <a href="https://www.linkedin.com/in/josephine-fields/" target="_blank">LinkedIn</a>
+            <a href="mailto:josiefields@outlook.com">Email</a>
+        </div>
+    </div>
 </header>
 
 <section class="about">
-    <h2>Mission Statement</h2>
+    <h2>Mission</h2>
     <p>
-        My goal is to work with computer hardware—from assembling components to eventually designing 
-        complete systems. I am also interested in repairing and restoring older hardware.
+        I aim to work in hardware design and computer systems, beginning with
+        hands-on component testing and progressing toward full system design.
+        I’m interested in understanding hardware at a deeper level and applying
+        that knowledge to improve, repair, and restore complex systems.
     </p>
-		<a href="images/me.jpg">
-            <img src="images/me.jpg">
-        </a>
-    <p>
-        <strong>My resume:</strong>
-        <a href="Fields, Josephine - Resume.docx.pdf">PDF</a> |
-        <a href="josephine_fields_resume_basic.html">HTML</a>
-    </p>
+
+    <img src="images/me.jpg" alt="Josephine Fields portrait" class="profile-img">
 </section>
 
 <section class="skills">
-    <h2>Skills</h2>
-    <ul>
+    <h2>Technical Skills</h2>
+    <ul class="skill-grid">
         <li>Java</li>
         <li>Python</li>
         <li>C / C++</li>
         <li>HTML / CSS</li>
-        <li>Git / GitHub</li>
-        <li>VSCode</li>
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
         <li>Microsoft Office</li>
     </ul>
 </section>
 
-<section class="projects">
-    <h2>Highlighted Projects</h2>
+<section class="portfolio">
+    <h2>Selected Projects</h2>
 
-    <div class="project">
-        <a href="files/statement.pdf">
-            <h3>Problem Statement</h3>
-            <img src="images/problem.png" alt="Problem Statement">
-        </a>
-    </div>
+    <!-- Project 1 -->
+    <article class="project-card">
+        <h3>Sierpinski Triangle Simulator</h3>
+        <p class="project-meta">Java · Algorithms · Visualization</p>
 
-    <div class="project">
-        <a href="files/Affinity_DOC.pdf">
-            <h3>Affinity Diagram</h3>
-            <img src="images/Affinity_IMG.png" alt="Affinity Diagram">
+        <div class="project-images">
+            <img src="images/Sierpinkski_Triangle.png.png" alt="Sierpinski Triangle output">
+            <img src="images/code_example1.png" alt="Code example">
+            <img src="images/code_example2.png" alt="Code example">
+        </div>
+
+        <p>
+            An interactive Java-based simulator exploring recursive and
+            algorithmic approaches to generating the Sierpinski Triangle.
+            The project emphasizes performance, mathematical correctness,
+            and visual clarity.
+        </p>
+
+        <h4>Design Process</h4>
+        <ul>
+            <li>Defined constraints for recursion depth and rendering speed</li>
+            <li>Implemented efficient triangle subdivision logic</li>
+            <li>Optimized drawing routines for large iteration counts</li>
+            <li>Refined visuals to clearly show fractal structure</li>
+        </ul>
+
+        <a href="https://github.com/josephinefields/Sierpinkski-Triangle" target="_blank">
+            View on GitHub →
         </a>
-    </div>
-	
-	<div class="project">
-		<a href="https://github.com/josephinefields/Sierpinkski-Triangle">
-			<h3>Sierpinkski Triangle Simulator</h3>
-		</a>
-		<a href="https://github.com/josephinefields/Sierpinkski-Triangle">
-			<img src="images/Sierpinkski_Triangle.png.png">
-			<img src="images/code_example1.png">
-			<img src="images/code_example2.png">
-		</a>
-		<p>Sierpinkski Triangle simulation in Java</p>
-	</div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project-card">
+        <h3>Autonomous Floor-Cleaning Robot</h3>
+        <p class="project-meta">Robotics · Embedded Systems · Control</p>
+
+        <p>
+            A conceptual and prototype-driven project focused on designing
+            an autonomous robot capable of navigating indoor spaces and
+            performing systematic floor cleaning.
+        </p>
+
+        <h4>System Overview</h4>
+        <ul>
+            <li>Sensor-based obstacle detection</li>
+            <li>Autonomous navigation and coverage planning</li>
+            <li>Motor control and power management</li>
+        </ul>
+
+        <h4>Planned Enhancements</h4>
+        <ul>
+            <li>Improved localization and mapping</li>
+            <li>Optimized cleaning path algorithms</li>
+            <li>Integration with additional sensors</li>
+        </ul>
+
+        <p class="project-status">Status: In Progress</p>
+    </article>
+
 </section>
 
 <section class="resume">
-    <h2>Resume</h2>
+    <h2>Education & Experience</h2>
 
-    <h3>Contact Information</h3>
+    <h3>University of South Carolina</h3>
     <p>
-        Columbia, SC<br>
-        Email: jefields@email.sc.edu<br>
-        Phone: (803) 397-7230
+        Bachelor’s in Computer Engineering<br>
+        August 2025 – May 2029<br>
+        Coursework: Calculus, Data Structures & Algorithms, Algorithmic Design
     </p>
-
-    <h3>Education</h3>
-    <p><strong>University of South Carolina</strong><br>
-    Bachelor's in Computer Engineering<br>
-    August 2025 – May 2029<br>
-    Relevant coursework: Calculus, Data Structures & Algorithms, Algorithmic Design</p>
 
     <h3>Work Experience</h3>
 
-    <p><strong>Summer Safari Counselor — Irmo Chapin Recreational Commission</strong><br>
-    Columbia, SC | June 2025 – August 2025</p>
+    <p><strong>Summer Safari Counselor</strong> — Irmo Chapin Recreational Commission</p>
     <ul>
-        <li>Supervised groups of 10–20 children in daily activities.</li>
-        <li>Ensured safety and responded to emergencies effectively.</li>
-        <li>Planned and led games, crafts, and outdoor activities.</li>
+        <li>Supervised and ensured safety of groups of 10–20 children</li>
+        <li>Planned structured daily activities and events</li>
     </ul>
 
-    <p><strong>Front of House Team Member — Chick-fil-A</strong><br>
-    Irmo, SC | August 2024 – April 2025</p>
+    <p><strong>Front of House Team Member</strong> — Chick-fil-A</p>
     <ul>
-        <li>Handled cash, credit, and mobile payments.</li>
-        <li>Provided fast and friendly customer service.</li>
-        <li>Maintained clean and safe dining areas.</li>
+        <li>Handled transactions and customer service in fast-paced environment</li>
+        <li>Maintained clean and safe dining areas</li>
     </ul>
 
-    <h3>Leadership & Activities</h3>
-    <p><strong>Lead Programmer — VEX Robotics</strong><br>
-    Irmo, SC | August 2021 – May 2025</p>
+    <h3>Leadership</h3>
+    <p><strong>Lead Programmer — VEX Robotics</strong></p>
     <ul>
-        <li>Designed and programmed robot systems using C++.</li>
-        <li>Created algorithms for motor control and sensors.</li>
-        <li>Mentored new members and competed in state and world championships.</li>
-    </ul>
-
-    <h3>Skills & Certifications</h3>
-    <ul>
-        <li>Java</li>
-        <li>Python</li>
-        <li>C / C++</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Microsoft Office</li>
-        <li>Git / GitHub</li>
-        <li>VSCode</li>
-        <li>OSHA 10</li>
+        <li>Designed and programmed robot systems in C++</li>
+        <li>Developed motor control and sensor algorithms</li>
+        <li>Competed in state and world championships</li>
     </ul>
 </section>
 
-<section class="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:josiefields@outlook.com">josiefields@outlook.com</a></p>
-</section>
+<footer class="contact">
+    <p>
+        © 2026 Josephine Fields ·
+        <a href="mailto:josiefields@outlook.com">josiefields@outlook.com</a> ·
+        <a href="https://www.linkedin.com/in/josephine-fields/" target="_blank">LinkedIn</a>
+    </p>
+</footer>
 
 </body>
 </html>
