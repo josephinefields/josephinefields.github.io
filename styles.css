@@ -228,6 +228,11 @@ footer {
 footer a {
     color: var(--accent);
     text-decoration: none;
+	background:
+        linear-gradient(120deg,
+            transparent 30%,
+            rgba(56,189,248,0.08),
+            transparent 70%);
 }
 
 /* Make all images responsive by default */
