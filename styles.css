@@ -106,11 +106,11 @@ h2::before {
     max-width: 1000px;
     margin: 50px auto;
 }
-.profile-img {
+/*.profile-img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    display: block;
+    display: block; */
 }
 .about {
 	flex: 1;
