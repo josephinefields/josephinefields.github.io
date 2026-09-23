@@ -223,16 +223,16 @@ footer {
     padding: 2rem;
     font-size: 0.85rem;
     color: var(--text-muted);
-}
-
-footer a {
-    color: var(--accent);
-    text-decoration: none;
 	background:
         linear-gradient(120deg,
             transparent 30%,
             rgba(56,189,248,0.08),
             transparent 70%);
+}
+
+footer a {
+    color: var(--accent);
+    text-decoration: none;
 }
 
 /* Make all images responsive by default */
