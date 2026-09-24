@@ -74,8 +74,8 @@
 
     <!-- Project 1 -->
     <article class="project-card">
-        <h3>Sierpinski Triangle Simulator - In Progress</h3>
-        <p class="project-meta">Java · HTML · CSS · Recursion</p>
+        <h3>Sierpinski Triangle Simulator: Java-to-Web Architecture Migration - In Progress</h3>
+        <p class="project-meta">HTML5 Canvas · JavaScript(ES6+) · Java 17 · Architecture Decision Records (ADRs)</p>
 
         <div class="project-images">
             <img src="images/Sierpinkski_Triangle.png.png" alt="Sierpinski Triangle output">
@@ -84,16 +84,15 @@
         </div>
 
         <p>
-            A web-based project that generates Sierpinski triangles using recursive programming techniques. 
-			I built the project to explore recursion and how mathematical patterns can be represented through code.
+			A rewrite of an academic desktop application originally built during my freshman year at the University of South Carolina (UofSC). I am migrating the original program out of a desktop environment and onto the web to eliminate user download barriers and introduce responsive, real-time controls.
         </p>
 
-        <h4>Design Process</h4>
+        <h4>Architectural Migration Roadmap</h4>
         <ul>
-            <li>Defined constraints for recursion depth and rendering speed</li>
-            <li>Implemented triangle subdivision logic</li>
-            <li>Created drawing routines for large iteration counts</li>
-            <li>Refined visuals to clearly show fractal structure</li>
+            <li><strong>Legacy System (Complete):</strong>Evaluated the original Java 17 and JFrame codebase. Documented its contraints inside an Obsidian workspace.</li>
+            <li><strong>Math Translation (In Progress):</strong>Porting the recursive math from Java into JavaScript. The web engine will calculate the coordinate arrays and draw the triangles onto an HTML5 Canvas.</li>
+            <li><strong>The User Interface (In Progress):</strong>Buiding a split-screen website layout using HTML and CSS. The next step is adding sliders and color pickers so users can change the fractal depth and colors in real time.</li>
+            <li><strong>Architecture Logs (In Progress):</strong>Logging every decision choice and bug fix in an Obsidian workspace using ADRs.</li>
         </ul>
 		
 		<a href="josephinefields.github.io/Sierpinski/index.html">
